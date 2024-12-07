@@ -37,6 +37,7 @@ class Migration extends Configs{
         /**
          * Insert Attibute here
          * example -> data.put("column","data type")
+	 * data type e.g., string,int,double,float
          */
         
         data.put("created_at", "TIMESTAMP DEFAULT CURRENT_TIMESTAMP");
